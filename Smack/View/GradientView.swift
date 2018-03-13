@@ -13,13 +13,13 @@ class GradientView: UIView {
     
     /* The @IBDesignable variable allows the variables to
      change inside of the storyboard. */
-    @IBInspectable var topColor: UIColor = #colorLiteral(red: 0.262745098, green: 0.5725490196, blue: 0.9450980392, alpha: 1) {
+    @IBInspectable var topColor: UIColor = #colorLiteral(red: 0.2901960784, green: 0.3019607843, blue: 0.8470588235, alpha: 1) {
         didSet {
             self.setNeedsLayout()
         }
     }
     
-    @IBInspectable var bottomColor: UIColor = #colorLiteral(red: 0.8745098039, green: 0.3490196078, blue: 0.2941176471, alpha: 1) {
+    @IBInspectable var bottomColor: UIColor = #colorLiteral(red: 0.1725490196, green: 0.831372549, blue: 0.8470588235, alpha: 1) {
         didSet {
             self.setNeedsLayout()
         }
